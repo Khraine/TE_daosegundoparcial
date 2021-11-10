@@ -1,0 +1,5 @@
+com\emergentes\dao\EventoDAO.class
+com\emergentes\utiles\ConexionDB.class
+com\emergentes\controlador\EventoControlador.class
+com\emergentes\dao\EventoDAOimpl.class
+com\emergentes\modelo\Evento.class
