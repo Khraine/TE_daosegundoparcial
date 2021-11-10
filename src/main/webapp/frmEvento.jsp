@@ -17,25 +17,25 @@
                 <table>
                     <tr>
                         <td>Titulo: </td>
-                        <td><input type="text" name="titulo" value="${evento.titulo}" placeholder="Ingrese el titulo"></td>
+                        <td><input type="text" name="titulo" value="${evento.titulo}" placeholder="Ingrese el titulo" required></td>
                     </tr>
                     <tr>
                         <td>Expositor: </td>
-                        <td><input type="text" name="expositor" value="${evento.expositor}" placeholder="Ingrese el expositor"></td>
+                        <td><input type="text" name="expositor" value="${evento.expositor}" placeholder="Ingrese el expositor" required></td>
                     </tr>
                     <tr>
                         <td>Fecha: </td>
-                        <td><input type="text" name="fecha" value="${evento.fecha}" placeholder="AAAA-MM-DD"></td>
+                        <td><input type="text" name="fecha" value="${evento.fecha}" placeholder="AAAA-MM-DD" required></td>
                     </tr>
                     <tr>
                         <td>Hora: </td>
                         <td>
-                            <input type="text" name="hora" value="${evento.hora}" placeholder="HoraInicio - HoraFinal"> 
+                            <input type="text" name="hora" value="${evento.hora}" placeholder="HoraInicio - HoraFinal" required> 
                         </td>
                     </tr>
                     <tr>
                         <td>Cupo: </td>
-                        <td><input type="number"  min = 0 name="cupo" value="${evento.cupo}"></td>
+                        <td><input type="number"  min = 0 name="cupo" value="${evento.cupo}" required></td>
                     </tr>
                     <tr>
                         <td></td>
